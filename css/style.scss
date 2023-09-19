@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import'responsive';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 25px 50px;
+    background: black;
+    color: aliceblue;
+    
+
+    .footer-value{
+        display: flex;
+
+
+        .footer-item{
+            flex-basis: 16%;
+            justify-content: space-around;
+            padding: 20px;
+
+
+            h2{
+                font-size: 25px;
+                letter-spacing: 0.05em;
+                font-weight: 400;
+
+                span{
+                    color: crimson;
+                    font-size: 27px;
+                    font-weight: 700;
+                }
+            }
+
+            h3{
+                font-size: 18px;
+                letter-spacing: 0.05em;
+                font-weight: 400;
+            }
+
+            h5{
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: 14px;
+                color: darkgrey;
+                font-weight: 300;
+                letter-spacing: 0.05em;
+                margin: 25px 0;
+
+            }
+
+           ul{
+            margin: 25px 0;
+            li{
+                font-size: 14px;
+                font-weight: 300;
+                margin: 4px 0;
+            a{
+                color: darkgrey;
+                transition: 0.2 all linear;
+               
+                
+            }
+            a:hover{
+                color: rgb(236, 232, 233);
+            }
+            }
+
+
+           }
+
+
+
+           .next{
+               color: white;
+               border-bottom: 2px solid white;
+               padding-right: 40px;
+               padding-bottom: 4px;
+               font-weight: 500;
+               display: inline-block;
+               margin-top: 60px;
+               transition: 0.2 all linear;;
+           }
+           .next:hover{
+            color: rgb(216, 180, 189);
+           }
+        }
+    }
+
+
+    .copyright{
+        p{
+            font-size: 14px;
+            color: darkgrey;
+            letter-spacing: 0.03em;
+            font-weight: 300;
+        }
+    }
+        
+    }
+
+}
+
